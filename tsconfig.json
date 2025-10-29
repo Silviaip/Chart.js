@@ -12,14 +12,13 @@
     // "noUnusedParameters": true,
     /* Modules */
     "baseUrl": ".",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "rootDir": "src",
     "types": ["offscreencanvas"],
     /* Emit */
     "declaration": true,
-    "importsNotUsedAsValues": "error",
     "inlineSourceMap": true,
     "outDir": "dist",
     /* JavaScript Support */

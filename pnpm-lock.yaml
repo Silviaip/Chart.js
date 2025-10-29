@@ -129,6 +129,9 @@ importers:
       pixelmatch:
         specifier: ^5.3.0
         version: 5.3.0
+      pnpm:
+        specifier: ^10.20.0
+        version: 10.20.0
       rollup:
         specifier: ^3.3.0
         version: 3.20.2
@@ -11601,6 +11604,12 @@ packages:
   /pngjs@6.0.0:
     resolution: {integrity: sha512-TRzzuFRRmEoSW/p1KVAmiOgPco2Irlah+bGFCeNfJXxxYGwSw7YwAOAcd7X28K/m5bjBWKsC29KyoMfHbypayg==}
     engines: {node: '>=12.13.0'}
+    dev: true
+
+  /pnpm@10.20.0:
+    resolution: {integrity: sha512-z5mYIiFi3YWGTQqBAueJLnukzq3rv1ox+cL85I384xepxTufZGTR75BCy6LgKuAqn3wUOitDjNk8kYQPAZK53Q==}
+    engines: {node: '>=18.12'}
+    hasBin: true
     dev: true
 
   /portfinder@1.0.32(supports-color@6.1.0):
